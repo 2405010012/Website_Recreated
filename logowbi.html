@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politeknik Wilmar Bisnis Indonesia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+   body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar-brand img {
+      height: 40px;
+    }
+    .hero {
+      background: linear-gradient(90deg, rgba(0, 102, 51, 0.9), rgba(0, 102, 51, 0.8)),
+        url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheA0Bc7baPuLZdw6xxDQ1pGZ3T5iEkv5ehPZI92uC9sDirUq3r1FK5Mf5M3eVqA-ZpLwl78QQnNf_MZcYs6Uj1_IphAqajY9FH_h0G4JYyFxlEQu1j5FwrzjnQKV3ySsP8wKLfetO2snGP/s1600/2b87d0589691929bcf23d67ecf613b13.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 140px 0;
+    }
+    .hero h1 {
+      font-weight: 700;
+      font-size: 3rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+    }
+    .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #004225;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #ffd100;
+  margin: 10px auto 0;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #333;
+}
+.sdgs-carousel-wrapper {
+  position: relative;
+  width: 100%;
+  height: 110px;
+}
+
+.sdgs-carousel {
+  display: flex;
+  gap: 16px;
+  animation: scrollLeft 25s linear infinite;
+}
+
+.sdgs-icon {
+  height: 100px;
+  width: auto;
+  flex-shrink: 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.video-testimoni-section h4 {
+  font-weight: 600;
+}
+
+.carousel-item .card {
+  border-left: 5px solid #ffd100;
+  background-color: #fff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #004225;
+  border-radius: 50%;
+}
+.footer-section {
+  background-color: #004225;
+  color: #fff;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #ffd100;
+  text-decoration: underline;
+}
+.lang-switch:hover {
+  color: #0d6efd;
+}
+section img {
+  transition: transform 0.3s ease;
+}
+
+section img:hover {
+  transform: scale(1.1);
+}
+</style>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-success shadow-sm fixed-top">
+    <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="https://student.wbi.ac.id/assets/image_web/logo-white-3.png" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+    <a class="nav-link" href="index.html">BERANDA</a>
+      </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">TENTANG WBI</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="salamdirektur.html">SALAM DARI DIREKTUR</a></li>
+            <li><a class="dropdown-item" href="sejarahwbi.html">SEJARAH WBI</a></li>
+            <li><a class="dropdown-item" href="nilainilaiinti.html">NILAI-NILAI INTI</a></li>
+            <li><a class="dropdown-item" href="visimisitujuan.html">VISI, MISI, DAN TUJUAN</a></li>
+          </ul>
+        </li>
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="pilihanfasilitas.html" data-bs-toggle="dropdown">FASILITAS</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="pusatinisiatifwbi.html">PUSAT INISIATIF WBI</a></li>
+            <li><a class="dropdown-item" href="perpustakaan.html">PERPUSTAKAAN</a></li>
+            <li><a class="dropdown-item" href="laboratoriumkomputer.html">LABORATORIUM KOMPUTER</a></li>
+            <li><a class="dropdown-item" href="labor.kulturjaringan.html">LABORATORIUM KULTUR JARINGAN</a></li>
+          </ul>
+        </li>
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">PROGRAM STUDI</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="trpl.html">TEKNOLOGI REKAYASA PERANGKAT LUNAK</a></li>
+            <li><a class="dropdown-item" href="ap.html">AKUNTANSI PERPAJAKAN</a></li>
+            <li><a class="dropdown-item" href="ah.html">AGRIBISNIS HORTIKULTURA</a></li>
+            <li><a class="dropdown-item" href="mpi.html">MANAJEMEN PEMASARAN INTERNASIONAL</a></li>
+            <li><a class="dropdown-item" href="pka.html">PENGELOLAAN KONVENSI DAN ACARA</a></li>
+          </ul>
+        </li>
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">BUKU WISUDA</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="21juni2025.html">21 JUNI 2025</a></li>
+            <li><a class="dropdown-item" href="23november2024.html">23 NOVEMBER 2024</a></li>
+          </ul>
+        </li>      
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="pilihanlayanan.html" data-bs-toggle="dropdown">LAYANAN</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="peng.kewirausahaan.html">PENGEMBANGAN KEWIRAUSAHAAN</a></li>
+            <li><a class="dropdown-item" href="peng.softskills.html">PENGEMBANGAN SOFT SKILLS</a></li>
+            <li><a class="dropdown-item" href="pelat.pemasarandigital.html">PELATIHAN PEMASARAN DIGITAL</a></li>
+            <li><a class="dropdown-item" href="pelat.agribisnis.html">PELATIHAN AGRIBISNIS</a></li>
+          </ul>
+        </li>
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">CALON MAHASISWA</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="pendaftaran.html">PENDAFTARAN</a></li>
+            <li><a class="dropdown-item" href="pendaftaranbeasiswa.html">PENDAFTARAN BEASISWA</a></li>
+            <li><a class="dropdown-item" href="biayakuliah.html">BIAYA KULIAH</a></li>
+          </ul>
+        </li>
+      <div class="d-flex align-items-center gap-2">
+        <a href="#" class="text-dark fw-semibold text-decoration-none lang-switch">ID</a>
+        <span class="text-muted">|</span>
+        <a href="#" class="text-dark fw-semibold text-decoration-none lang-switch">ENG</a>
+      </div>
+      </ul>
+      </ul>
+      </ul>
+      </ul>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <div class="row align-items-center mb-4">
+    <div class="col-md-10">
+      <p class="fs-5 text-muted">
+       Politeknik WBI (Wilmar Bisnis Indonesia) memiliki identitas termasuk status, kedudukan, hari jadi, lambang, bendera, himne, mars, dan busana akademik yang diatur di dalam Peraturan Pemerintah No. 16 Tahun 2014 tentang Statuta USU.
+      </p>
+    </div>
+    <div class="col-md-2 text-end">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9x1JM5W0z-6VEKw5YaDEcWeKh5qQC5icmrWuZkB1TeLUdhg-p4lAn_on56h-03f-h5YC25I3mdl-TxfxopgcmJlC1Tp4uxXHJdnJuIbgHXQ9X_pdVwQjtDdXEGhdzds8kLK_KCYJC6vTh/s1600/logo.jpg" alt="Logo USU" class="img-fluid" style="max-height: 100px;">
+    </div>
+  </div>
+
+  <div class="row g-3">
+    <div class="col-md-3">
+      <div class="p-3 bg-light rounded shadow-sm h-100">
+        <h6 class="text-success">Status</h6>
+        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="p-3 bg-light rounded shadow-sm h-100">
+        <h6 class="text-success">Kedudukan</h6>
+        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="p-3 bg-light rounded shadow-sm h-100">
+        <h6 class="text-success">Hari Jadi</h6>
+        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="p-3 bg-light rounded shadow-sm h-100">
+        <h6 class="text-success">Busana Akademik</h6>
+        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="footer-section bg-dark text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row g-4">
+      <!-- Logo & Alamat -->
+      <div class="col-md-4">
+        <img src="https://student.wbi.ac.id/assets/image_web/logo-white-3.png" alt="Logo USU" width="70" class="mb-3">
+        <h5 class="fw-bold">Politeknik Wilmar Bisnis Indonesia</h5>
+        <p class="small">
+          Laut Dendang, Jl. Warakauri,<br>
+          Kec. Percut Sei Tuan, Kabupaten Deli Serdang,<br>
+          Sumatera Utara
+        </p>
+        <p class="small mb-0">Telp: (061) 8xxxxxxx</p>
+      </div>
+
+      <!-- Tautan Penting -->
+      <div class="col-md-4">
+        <h6 class="fw-bold mb-3">Tautan Penting</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#" class="footer-link">Tentang WBI</a></li>
+          <li><a href="#" class="footer-link">Penerimaan Mahasiswa</a></li>
+          <li><a href="#" class="footer-link">Kerjasama</a></li>
+          <li><a href="#" class="footer-link">Hubungi Kami</a></li>
+        </ul>
+      </div>
+
+      <!-- Sosial Media -->
+      <div class="col-md-4">
+        <h6 class="fw-bold mb-3">Ikuti Kami</h6>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-white fs-5"><i class="bi bi-facebook">Facebook</i></a>
+          <a href="#" class="text-white fs-5"><i class="bi bi-instagram">Instagram</i></a>
+          <a href="#" class="text-white fs-5"><i class="bi bi-twitter-x">X/Twitter</i></a>
+          <a href="#" class="text-white fs-5"><i class="bi bi-youtube">YouTube</i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-light mt-4">
+    <div class="text-center small">
+      © 2025 Politeknik Wilmar Bisnis Indonesia. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<!-- JS Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
