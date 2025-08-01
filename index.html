@@ -119,6 +119,55 @@ section img {
 section img:hover {
   transform: scale(1.1);
 }
+/* Styling untuk section Kampus Merdeka */
+section.bg-light {
+  background-color: #f9f9f9;
+}
+
+/* Logo dan judul KM */
+section .fw-bold.text-success {
+  font-size: 1.25rem;
+}
+
+/* Paragraf utama */
+section p.fs-5 {
+  color: #333;
+}
+
+/* Tombol Tag */
+section .btn-outline-warning {
+  border-radius: 50px;
+  font-size: 0.875rem;
+  border: 1px solid #ffc107;
+  color: #333;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+section .btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+section img.img-fluid {
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+section img.img-fluid:hover {
+  transform: scale(1.03);
+}
+
+section a.text-primary {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+section a.text-primary:hover {
+  text-decoration: underline;
+}
 
 </style>
 </head>
@@ -338,6 +387,60 @@ section img:hover {
 </div>
 </div>
 </section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Kiri: Teks -->
+      <div class="col-md-6">
+        <div class="mb-3 d-flex align-items-center">
+          <img src="https://assets.nsd.co.id/images/kampus/logo/AABMkM0.jpg" alt="Logo KM" width="40" class="me-2">
+          <h5 class="fw-bold text-success mb-0">Pengabdian Masyarakat</h5>
+        </div>
+        <p class="text-dark fs-5">
+       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+
+        <!-- Tombol Tag -->
+        <div class="d-flex flex-wrap gap-2 mb-3">
+          <span class="btn btn-outline-warning rounded-pill px-3">Magang</span>
+          <span class="btn btn-outline-warning rounded-pill px-3">KKN Tematik</span>
+          <span class="btn btn-outline-warning rounded-pill px-3">Riset Talenta</span>
+          <span class="btn btn-outline-warning rounded-pill px-3">Kampus Mengajar</span>
+          <span class="btn btn-outline-warning rounded-pill px-3">Proyek Kemanusiaan</span>
+          <span class="btn btn-outline-warning rounded-pill px-3">Proyek Independen</span>
+          <span class="btn btn-outline-warning rounded-pill px-3">Pertukaran Mahasiswa</span>
+          <span class="btn btn-outline-warning rounded-pill px-3">Wirausaha</span>
+        </div>
+
+        <a href="#" class="text-primary fw-semibold text-decoration-none">
+          Selengkapnya Tentang WBI →
+        </a>
+      </div>
+
+      <!-- Kanan: Gambar -->
+      <div class="col-md-6">
+        <div class="row g-2">
+          <div class="col-6">
+            <img src="https://lppm.wbi.ac.id//sliders/1750514261_kolaborasi-penelitian-politeknik-wilmar-bisnis-indonesia-dan-pt-psn-kembangkan-pupuk-hayati-dan-organik-berbasis-limbah-pertanian.jpg" alt="Mahasiswa 1" class="img-fluid rounded shadow-sm">
+          </div>
+          <div class="col-6">
+            <img src="img2.jpg" alt="Ilustrasi 2" class="img-fluid rounded shadow-sm">
+          </div>
+          <div class="col-6">
+            <img src="img3.jpg" alt="Logo Kampus Merdeka" class="img-fluid rounded shadow-sm">
+          </div>
+          <div class="col-6">
+            <img src="img4.jpg" alt="Mahasiswa 2" class="img-fluid rounded shadow-sm">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- SDGs Carousel -->
 <section class="sdgs-section py-5 bg-white">
   <div class="container">
@@ -410,7 +513,7 @@ section img:hover {
 </div>
 <div class="carousel-item">
 <div class="card p-4 shadow-sm">
-  <p class="mb-2">"Dosen dan fasilitas WBI luar biasa. Saya bangga jadi bagian dari USU."</p>
+  <p class="mb-2">"Dosen dan fasilitas WBI luar biasa. Saya bangga jadi bagian dari WBI."</p>
   <small class="text-muted">– Lestari, Alumni Manajemen Pemasaran Internasional</small>
 </div>
 </div>
